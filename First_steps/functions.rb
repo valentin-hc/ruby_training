@@ -57,10 +57,10 @@ def add1(a, b)
 	calc1 = a + a
 	calc2 = a + b
 	calc3 = b + b
-	return calc1, calc2, calc3
+	[calc1, calc2, calc3]
 end
 
-#puts add1(2, 4) #problem here with automatic return
+puts add1(2, 4) #problem here with automatic return
 
 
 def square(num)
