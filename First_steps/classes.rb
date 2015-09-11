@@ -23,7 +23,7 @@
 #other_car.print_color
 
 class Car
-	attr_accessor :color
+	attr_accessor :color  #attr_reader
 
 	def initialize(color)
 		@color = color
